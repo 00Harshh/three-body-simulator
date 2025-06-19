@@ -37,8 +37,8 @@ The **three-body problem** models how three celestial bodies move under mutual g
 ## 🛠 Installation
 
 ```bash
-git clone https://github.com/your-username/chaotic-orbits.git
-cd chaotic-orbits
+git clone https://github.com/00Harshh/three-body-simulator
+cd three-body-simulator
 pip install -r requirements.txt
 ```
 
@@ -53,10 +53,9 @@ pip install -r requirements.txt
 ## 🚀 How to Run
 
 ```bash
-python main.py
+python three-body-simulator.py
 ```
 
-You can modify the initial positions, velocities, and masses in `main.py` or `config.py` to explore different behaviors.
 
 ---
 
@@ -72,42 +71,7 @@ You can modify the initial positions, velocities, and masses in `main.py` or `co
 
 ---
 
-## ⚙️ File Structure
 
-```
-chaotic-orbits/
-├── main.py               # Simulation entry point
-├── simulator.py          # RK4 + gravity logic
-├── visualizer.py         # Matplotlib animation & plots
-├── config.py             # Initial conditions & settings
-├── utils.py              # Energy, distance, etc.
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 📊 Future Features (Planned)
-
-* ✅ Add 3D visualization
-* ✅ Include Lyapunov exponent calculation
-* ⏳ GPU acceleration (via CuPy or JAX)
-* ⏳ Web-based visualization using Plotly or Three.js
-* ⏳ Add Poincaré section generator
-
----
-
-## 👨‍💻 Author
-
-**Harsh Joshi**
-
-> I build physics-inspired simulations, neural nets from scratch, and explore chaos & AI with Python.
-
-* GitHub: [@your-username](https://github.com/your-username)
-* Twitter: [@your-handle](https://twitter.com/your-handle) (if any)
-* Blog: \[Your Hashnode/Medium link]
-
----
 
 ## 🧠 References
 
@@ -118,9 +82,5 @@ chaotic-orbits/
 
 ---
 
-## 🌌 License
 
-MIT License — feel free to use and modify this code. Star the repo if it helped you!
-
----
 
