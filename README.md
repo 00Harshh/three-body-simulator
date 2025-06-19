@@ -38,7 +38,6 @@ The **three-body problem** models how three celestial bodies move under mutual g
 
 ```bash
 git clone https://github.com/00Harshh/three-body-simulator
-cd three-body-simulator
 pip install -r requirements.txt
 ```
 
